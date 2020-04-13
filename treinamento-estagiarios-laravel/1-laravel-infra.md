@@ -1,6 +1,7 @@
 ### 1.  habilitar virtualização (vt-x) na BIOS da sua máquina
 
 ### 2. Instale o virtualbox: 
+Normalmente depois de instalar o Virtualbox você deve reiniciar o computador.
 
  - https://www.virtualbox.org/wiki/Downloads
 
