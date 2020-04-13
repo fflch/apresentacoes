@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Apresentação</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="style.css">
+		<script src="js/head.js"></script>
+
+	</head>
+
+	<body>
+
+<div class="reveal">
+ <!-- footer em todos slides caso deseje -->
+ <div class='footer'>
+     Faculdade de Filosofia, Letras e Ciências Humanas
+ </div>
+
+<!-- ####### Aqui de fato começam os slides ###### -->
+<div class="slides">
+
+<section>
+    <h1>Sybase no Debian</h1>
+    <p>Instalação e configuração do sybase no debian com Ansible - com foco no replicado</p>
+</section>
+
+<section>
+<h2>Fluxo geral</h2>
+<ul>
+  <li>Baixar Sybase SAP ASE</li>
+  <li>Rodar ./setub.bin</li>
+</ul>
+<br><br>
+Pode-se salvar a configuração usada na instalação iterativa: 
+
+<pre>
+    <code data-trim data-noescape> 
+        ./setub.bin -r /tmp/arquivo_response.txt 
+    </code>
+</pre>
+</section>
+
+<section>
+<h2>Antes/durante/depois da instalação</h2>
+<ul>
+  <li>versão express</li>
+  <li>usuário e grupo sybase</li>
+  <li>dependências: libaio1, unzip</li>
+  <li>tipo de server: sap ase, backup server</li>
+  <li>service *sybase* com start e stop</li>
+  <li>iniciar automaticamente no boot</li>
+  <li>variáveis de ambiente para usar o isql</li>
+  <li>...</li>
+</ul>
+</section>
+
+<section>
+<h2>Por isso vamos usar o ansible...</h2>
+<ul>
+  <li>Colocar o arquivo .tgz no servidor</li>
+  <li>Sua máquina deve acessar o servidor via ssh usando chaves</li>
+  <li>Response pré-definido: sap ase server e backup server</li>
+</ul>
+</section>
+
+<section>
+  <h3>Playbook mínimo</h3>
+
+<pre>
+    <code data-trim data-noescape> 
+      tasks:
+
+        - name: fflch.sap-ase
+          include_role:
+            name: fflch.sap-ase
+          vars:
+            sap_ase_home: '/replicado'
+            sap_ase_log: '/replicado/log'
+            sap_ase_tar: '/root/ASE_Suite.linuxamd64.tgz'
+     
+            sap_ase_host: 'replicado.fflch.usp.br'
+            sap_ase_password: "SenhaDoServidor123"
+    </code>
+</pre>
+
+</section>
+
+</div><!-- .slides -->
+<!-- ####### Aqui de acaba a seção de slides ###### -->
+</div><!-- .reveal -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+		<script src="js/bottom.js"></script>
+
+	</body>
+</html>

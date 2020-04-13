@@ -1,0 +1,21 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/simple.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/moon.css";
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 10em;
+  font-size: 80%;
+  color: #042e6f;
+}
+
+body {
+    /*background-image: url("../images/fflch_name.png");*/
+    background-image: url("../images/fflch.png");
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-position: 3% 96%;
+}
+
+
