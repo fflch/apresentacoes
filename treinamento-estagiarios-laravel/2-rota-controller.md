@@ -22,6 +22,7 @@ Passo-a-passo:
     cp .env .env.example
     php artisan vendor:publish --provider="Uspdev\UspTheme\ServiceProvider" --tag=assets --force
     php artisan key:generate
+    php artisan serve
 
 1 - Criação do controller:
 
@@ -56,8 +57,6 @@ Passo-a-passo:
 
 7 - Método no controller para receber dados:
 
-    use Illuminate\Http\Request;
-    ...
     public function store(Request $request){
         echo $request->numero_usp;
         dd("Acho que tá tudo ok");
