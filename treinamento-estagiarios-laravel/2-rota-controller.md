@@ -61,3 +61,11 @@ Passo-a-passo:
         echo $request->numero_usp;
         dd("Acho que tá tudo ok");
     }
+
+8 - Salvar mudanças no git e enviar para github:
+
+    git add .
+    git commit -m 'Implementando Controller Pareceristas'
+    git push origin master
+
+9 - Abrir pull request no github
