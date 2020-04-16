@@ -52,7 +52,7 @@ Configurar chave ssh no github:
 
 ### 9. Instalar dependências mínimas para laravel:
 
-     sudo apt install php curl php-xml php-intl php-mbstring php-mysql php-curl
+     sudo apt install php curl php-xml php-intl php-mbstring php-mysql php-curl php-sybase
 
 Instalar o composer:
 
