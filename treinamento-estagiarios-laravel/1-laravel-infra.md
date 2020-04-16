@@ -1,6 +1,9 @@
+https://youtu.be/qImwzkP0nQE
+
 ### 1.  habilitar virtualização (vt-x) na BIOS da sua máquina
 
 ### 2. Instale o virtualbox: 
+Normalmente depois de instalar o Virtualbox você deve reiniciar o computador.
 
  - https://www.virtualbox.org/wiki/Downloads
 
@@ -49,7 +52,7 @@ Configurar chave ssh no github:
 
 ### 9. Instalar dependências mínimas para laravel:
 
-     sudo apt install php-xml php-intl php-mbstring php-mysql
+     sudo apt install php curl php-xml php-intl php-mbstring php-mysql php-curl
 
 Instalar o composer:
 
