@@ -20,6 +20,7 @@ Passo-a-passo:
     cd estagios
     composer install
     cp .env .env.example
+    php artisan vendor:publish --provider="Uspdev\UspTheme\ServiceProvider" --tag=assets --force
     php artisan key:generate
 
 1 - Criação do controller:
