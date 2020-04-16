@@ -48,7 +48,7 @@ Passo-a-passo:
     @extends('laravel-usp-theme::master')
     @section('content')
         Seu formulário aqui, lembrar do @csrf
-    @stop
+    @endsection('content')
 
 6 - Rota tipo post para receber dados em /routes/web.php:
 
