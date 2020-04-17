@@ -19,7 +19,7 @@ Passo-a-passo:
     git clone git@github.com:MARIAZINHA/estagios.git
     cd estagios
     composer install
-    cp .env .env.example
+    cp .env.example .env
     php artisan vendor:publish --provider="Uspdev\UspTheme\ServiceProvider" --tag=assets --force
     php artisan key:generate
     php artisan serve
