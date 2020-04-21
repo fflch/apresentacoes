@@ -3,11 +3,10 @@ caso controle de estágios externos da FFLCH.
 
 Na parte 3, muito mais conceitual, vamos:
 
- - persistir os dados no banco de dados
  - validar a entrada
- - criar formulário de edição
- - criar visualização do conteúdo criado (show)
+ - persistir os dados no banco de dados
  - criar visualização dos conteúdos criados em lista (index)
+ - criar visualização do conteúdo criado (show)
 
 1 - apontado seu repositório para o principal (remote):
 
@@ -19,6 +18,7 @@ Na parte 3, muito mais conceitual, vamos:
     git remote update
     git merge upstream/master
     composer install
+    php artisan serve
 
 3 - Comentários gerais sobre os formulários:
 
@@ -52,31 +52,25 @@ No controller:
 
 7 - Criar banco de dados e colocar no .env
 
+    php artisan migrate
+
 6 - criar model e migration:
 
-    php artisan make:model -m Parecerista
+    php artisan make:model Parecerista -m
 
 7 - Salvar no banco dados, store!
 
-8 - Criar rotas para edição:
+8 - Criar página de index e show
 
-    Route::get('pareceristas/{parecerista}', 'PareceristaController@edit');
-    Route::patch('pareceristas/{parecerista}', 'PareceristaController@update');
-
-9 - No formulário de edição lembrar de:
-
-    @csrf
-    @method('patch')
-
-10 - Estamos duplicando nosso formulário! why not?
-
-    <input class="input" type="text" name="name" value="{{old('name',
-    $profile->name)}}">
-
-11 - Criar página de index e show
+Salvar mudanças no git e enviar para github
+Enviar pull request
 
 ##
 Gabriela e Arthur - Construção dos PDFs
+
+0 - instalar php-gd
+
+    sudo apt install php-gd
 
 1 - Criar rota para pdf
 
@@ -90,6 +84,7 @@ Gabriela e Arthur - Construção dos PDFs
 3 - criar template do pdf em pdfs/termo.blade.php:
 
     @extends('pdfs.fflch')
+    @section('content')
       Seu trabalho aqui
     @endsection('content')
 
