@@ -64,8 +64,13 @@ No controller:
 
 8 - Criar página de index e show
 
-Salvar mudanças no git e enviar para github
-Enviar pull request
+9 - Salvar mudanças no git e enviar para github:
+
+    git add .
+    git commit -m 'Implementando Model Pareceristas'
+    git push origin master
+
+10 - Abrir pull request no github
 
 ##
 Gabriela e Arthur - Construção dos PDFs
@@ -89,6 +94,8 @@ Gabriela e Arthur - Construção dos PDFs
     @section('content')
       Seu trabalho aqui
     @endsection('content')
+
+4 - Salvar mudanças no git e enviar para github
 
 
 
