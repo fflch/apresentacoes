@@ -82,15 +82,13 @@ vamos dropar nosso banco (mesmo quem não criou campo date):
     exit
     php artisan migrate
 
- - No input dos campos dados coloque a classe datepicker, que fornecerá
+ No input dos campos dados coloque a classe datepicker, que fornecerá
 uma data no formato dd/mm/yyyy. 
- - Valide essa data no método rules.
- - Por fim, no controller, faça o tratamento da data em cada método:
+ Valide essa data no método rules.
+ Por fim, no controller, faça o tratamento da data em cada método:
 
     store: converta dd/mm/yyyy para yyyy-mm-dd
     show: converta yyyy-mm-dd para dd/mm/yyyy
-
-    explode($data);
 
 7 - novas validações: email, cpf, cnpj, celular_com_ddd, data, formato_cep, telefone_com_ddd, unique (CPNJ)
 
