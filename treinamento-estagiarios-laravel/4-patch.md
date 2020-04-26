@@ -1,8 +1,21 @@
 Na parte 4 vamos:
 
- - falar sobre o bootstrap
- - corrigir tipagem de alguns campos no banco de dados
- - Completar o ciclo: edição (trocar rotas para resource) 
+ - falar um pouco sobre o bootstrap
+ - trabalhando com datas (não pode ser texto...)
+ - mais validações 
+ - como trabalhar com css e js
+ - edição
+ - fakedata 
+
+0 - Mais campos:
+
+    Empresa: email_empresa, telefone_empresa, nome_contato
+
+    Estágio: cnpj, numero_usp_estagiario, 
+    http://graduacao.fflch.usp.br/node/9402
+    atenção nos campos que são textarea.
+    bloco: OS CAMPOS ABAIXO SÓ DEVEM SER PREENCHIDOS QUANDO FOR ESTÁGIO DOMICILIAR
+    (pode tirar caixa alta de todos campos)
 
 
 1 - Sempre atualize seu projeto com o principal:
@@ -83,6 +96,38 @@ uma data no formato dd/mm/yyyy.
 
  - https://laravel.com/docs/7.x/validation#available-validation-rules
  - https://github.com/LaravelLegends/pt-br-validator
+
+Máscaras:
+
+    @section('javascripts_head')
+      <script src="{{asset('/js/pareceristas.js')}}"></script>
+    @endsection('javascript_head')
+
+public/js/pareceristas.js:
+
+    jQuery(function ($) {
+        $("#CPF").mask('000.000.000-00');
+    });
+
+Vamos brincar um pouco com css também:
+
+Criando uma classe required:
+
+    <label for="nome" class="required">Nome: </label>
+
+Adicionando css no nosso blade:
+
+    @section('styles')
+      <link rel="stylesheet" type="text/css" href="{{asset('/css/pareceristas.css')}}">
+    @endsection('styles')
+
+public/css/pareceristas.css:
+
+    form label.required:after
+    {
+        color: red;
+        content: " *";
+    }
 
 8 - Criar rotas para edição:
 
@@ -193,15 +238,10 @@ No seu seeder, chame sua classe factory e gere 100 entradas:
 
     factory(App\Parecerista::class, 100)->create();
 
-################
-00 - pdf renovação: data do dia, 
-
-
-
-8 - Salvar mudanças no git e enviar para github:
+22 - Salvar mudanças no git e enviar para github:
 
     git add .
     git commit -m 'Implementando Controller Pareceristas'
     git push origin master
 
-9 - Abrir pull request no github
+23 - Abrir pull request no github
