@@ -23,6 +23,7 @@ Na parte 4 vamos:
     git remote update
     git merge upstream/master
     composer install
+    php artisan migrate
     php artisan serve
 
 2 - use sempre rows do boostrap, estrutura básica:
