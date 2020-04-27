@@ -77,11 +77,7 @@ Identação no blade com 2 espaços. No php são 4.
 
 vamos dropar nosso banco (mesmo quem não criou campo date):
 
-    mariadb -uadmin -padmin
-    drop database estagios;
-    create database estagios;
-    exit
-    php artisan migrate
+    php artisan migrate:fresh
 
  No input dos campos dados coloque a classe datepicker, que fornecerá
 uma data no formato dd/mm/yyyy. 
@@ -212,7 +208,7 @@ No método run() criar uma entrada de dado fake +/- real:
 
 Rodar seeder:
 
-    php artisan migrate:refresh
+    php artisan migrate:fresh
     php artisan db:seed --class=PareceristaSeeder
 
 21 - Agora que você conhece seus dados, vamos gerar entradas fakes:
