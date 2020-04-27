@@ -101,7 +101,7 @@ Máscaras:
 public/js/pareceristas.js:
 
     jQuery(function ($) {
-        $("#CPF").mask('000.000.000-00');
+        $(".cpf").mask('000.000.000-00');
     });
 
 Vamos brincar um pouco com css também:
