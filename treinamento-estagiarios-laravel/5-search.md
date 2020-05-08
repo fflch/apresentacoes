@@ -92,7 +92,7 @@ campo divulgar_ate no model Vaga (tiramos a lógica do controller):
 *issue (Marcos): cpf_rep, cpf_rep2, tel_cont https://github.com/fzaninotto/Faker#fakerproviderpt_brphonenumber - acho que telefone podemos guardar com a mascará?*
 *issue (Gabriel): cnpj, data_inicial e data_final*
 
-6. paginação:
+6 - paginação:
 
     $pareceristas = Parecerista::paginate(10);
 
@@ -101,7 +101,7 @@ campo divulgar_ate no model Vaga (tiramos a lógica do controller):
 
 *issue (todos): paginação em index.blade.php*
 
-7. busca no index:
+7 - busca no index:
 
     <form method="get" action="/pareceristas">
     <div class="row">
@@ -130,6 +130,6 @@ Novo links para paginação:
 
     {{ $pareceristas->appends(request()->query())->links() }}
 
-https://symfony.com/doc/current/workflow.html
+8 - pdf do convênio e do termdo de compromisso: Gabriela e Arthur
 
 
