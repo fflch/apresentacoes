@@ -37,7 +37,7 @@ No form.blade.php:
     @foreach ($estagio->especifiquevtOptions() as $option)
     
         {{-- 1. Situação em que não houve tentativa de submissão e é uma edição --}}
-        @if (old('especifiquevt') == '' and !isset($estagio->especifiquevt))
+        @if (old('especifiquevt') == '' and isset($estagio->especifiquevt))
         <option value="{{$option}}" {{ ( $estagio->especifiquevt == $option) ? 'selected' : ''}}>
             {{$option}}
         </option>
