@@ -1,3 +1,8 @@
+no faker do estagiO E CONVEnio, garantir que a empresa existe antes
+gates, permissins, roles
+
+loginController
+
 Máquina de estado:
 
  - https://github.com/zerodahero/laravel-workflow (que vou usar)
@@ -28,11 +33,5 @@ No model:
     class Estagio extends Model {
     use WorkflowTrait;
 
-No controller
-
-... falta fazer
 
 
-gates, permissins, roles
-
-loginController
