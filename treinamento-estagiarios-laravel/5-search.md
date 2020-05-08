@@ -10,7 +10,8 @@ https://github.com/fzaninotto/Faker#fakerproviderpt_brperson (usar a versão sem
  - Empresa: migrations com nomes dos campos mais curtos e por consequência em todo resto.
  - Convenio: não abreviar nas migrations e por consequência em todo resto
  - indentação, espaçamento
- - cada um cadastrar um conteúdo para cada model, se tiver problema ou sugestão abrir uma issue.
+ - cada um cadastrar um conteúdo para cada model, se tiver problema ou sugestão abrir uma issue
+ - input versus textarea
  
 0 - Servidor replicado, como funciona?
 Dados de conexão com repliciado no .env
