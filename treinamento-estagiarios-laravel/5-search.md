@@ -1,3 +1,5 @@
+https://youtu.be/-hodRX3rgbw
+
 Comentários gerais:
 
  - migrations: campos que sabemos que são pequenos, podem virar string
