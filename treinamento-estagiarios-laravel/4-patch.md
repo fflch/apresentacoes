@@ -227,10 +227,6 @@ e retornamos nossos dados fakes:
         'nome' => $faker->name,
     ];
 
-Para quem for usar cpf ou cnpj: https://github.com/jansenfelipe/faker-br
-
-    $faker->addProvider(new \JansenFelipe\FakerBR\FakerBR($faker));
-
 No seu seeder, chame sua classe factory e gere 100 entradas:
 
     factory(App\Parecerista::class, 100)->create();
