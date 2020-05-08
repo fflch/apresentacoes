@@ -14,7 +14,6 @@ card-body
 
 paginação
 
-
 https://symfony.com/doc/current/workflow.html
 
 Máquina de estado:
@@ -52,3 +51,8 @@ No controller
 ... falta fazer
 
 
+filtros, index.blade.php,
+
+gates, permissins, roles
+
+loginController
