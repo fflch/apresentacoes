@@ -1,21 +1,3 @@
-dados de conexão com repliciado no .env
-
-faker replicado: docente() e graduacao();
-
-faker pt-br, não precisa do provider, já tem na lib default
-
-@inject
-
-trocar fillable para protected
-
-get and set no models
-
-card-body
-
-paginação
-
-https://symfony.com/doc/current/workflow.html
-
 Máquina de estado:
 
  - https://github.com/zerodahero/laravel-workflow (que vou usar)
@@ -50,8 +32,6 @@ No controller
 
 ... falta fazer
 
-
-filtros, index.blade.php,
 
 gates, permissins, roles
 
