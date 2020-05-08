@@ -90,7 +90,9 @@ campo divulgar_ate no model Vaga (tiramos a lógica do controller):
     }
 
 *issue (Laura): divulgacao_home_ate*
+
 *issue (Marcos): cpf_rep, cpf_rep2, tel_cont https://github.com/fzaninotto/Faker#fakerproviderpt_brphonenumber - acho que telefone podemos guardar com a mascará?*
+
 *issue (Gabriel): cnpj, data_inicial e data_final*
 
 6 - paginação:
@@ -130,6 +132,8 @@ No controller:
 Novo links para paginação:
 
     {{ $pareceristas->appends(request()->query())->links() }}
+
+*issue (todos): implementar busca*
 
 8 - pdf do convênio e do termdo de compromisso: Gabriela e Arthur
 
