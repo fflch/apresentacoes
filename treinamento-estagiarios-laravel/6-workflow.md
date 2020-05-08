@@ -1,6 +1,9 @@
 no faker do estagiO E CONVEnio, garantir que a empresa existe antes
 
 https://github.com/laravelha/generator
+
+https://github.com/laracasts/Laravel-5-Generators-Extended
+
 https://github.com/appzcoder/crud-generator/blob/master/doc/usage.md
 
 gates, permissins, roles
