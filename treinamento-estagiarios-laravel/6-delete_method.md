@@ -1,3 +1,8 @@
+https://youtu.be/SRtYaUDvOaQ
+
+workflow: https://youtu.be/0tHQ2P_rChs
+
+
 O faker do Estagio/Convenio deve criar uma empresa antes:
 
     factory(App\Empresa::class)->create()->cnpj
