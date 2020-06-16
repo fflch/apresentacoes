@@ -1,7 +1,8 @@
 https://youtu.be/SRtYaUDvOaQ
 
-workflow: https://youtu.be/0tHQ2P_rChs
-
+workflow:
+ - https://youtu.be/0tHQ2P_rChs
+ - https://youtu.be/SDMN9YOgwjk
 
 O faker do Estagio/Convenio deve criar uma empresa antes:
 
