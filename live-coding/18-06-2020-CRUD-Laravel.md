@@ -1,4 +1,5 @@
 Data: 18/06/2020 - 14h-18h
+https://youtu.be/z0T4PyHRkPE
 
 Escopo: Desenvolvimento de um sistema para cadastro de ocorrências nas
 portarias dos prédios. A ocorrência pode envolver ou não movimentação
