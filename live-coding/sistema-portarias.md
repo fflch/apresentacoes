@@ -28,12 +28,15 @@ deixar senha opicional.
 8 - (Gabriel): Criar index (blade e controller) para ocorrências, com busca por data e paginação
 
 # 2. Encontro - 25/06/2020 - 14h-18h
+https://youtu.be/68fKrI5Qry8
 
 1 - (Gabriela): Criar o formulário de cadastro e persistência de ocorrências - tratar a data da ocorrência com gets/sets
 
 2 - (Arthur): Formulário e persistência das edições das ocorrências
 
 3 - (Victor): Mostrar ocorrência, show.blade.php
+
+# 3. Encontro
 
 4 - (Augusto): Opção para deletar ocorrência
 
@@ -48,7 +51,7 @@ Por que não usamos formRequest aqui?
 
 9 - (Gabriel): Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
 
-# 3. Encontro
+
 
 15 - Cadastro (blade, rota, controller) de vigia
 
