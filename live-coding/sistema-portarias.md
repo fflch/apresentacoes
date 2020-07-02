@@ -37,6 +37,7 @@ https://youtu.be/68fKrI5Qry8
 3 - (Victor): Mostrar ocorrência, show.blade.php
 
 # 3. Encontro - 02/07/2020
+https://youtu.be/FZF-AQISfGg
 
 1 - (Augusto): Opção para deletar ocorrência
 
