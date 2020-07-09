@@ -5,8 +5,6 @@ de equipamentos.
 # 1. Encontro - 18/06/2020
 https://youtu.be/z0T4PyHRkPE
 
-Etapas:
-
 1 - (Victor): Criação do projeto Portarias no laravel com composer. Criação do banco
 de dados, inserção no .env, rodar primeira migration. Inicializar projeto
 no git.
@@ -46,6 +44,7 @@ https://youtu.be/FZF-AQISfGg
 3 - (Laura): Validação com FormRequest da ocorrência na criação e edição
 
 # 4. Encontro - 09/07/2020
+https://youtu.be/vgMkBewEG20
 
 1 - (Laura): Terminar validação com FormRequest da ocorrência na criação e edição
 
