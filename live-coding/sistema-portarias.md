@@ -45,16 +45,20 @@ https://youtu.be/FZF-AQISfGg
 
 3 - (Laura): Validação com FormRequest da ocorrência na criação e edição
 
-# 4. Encontro
+# 4. Encontro - 09/07/2020
 
- - implementar busca por tipo de ocorrência
- 
- - (Marisa): Validação do campo tipo;
+1 - (Laura): Terminar validação com FormRequest da ocorrência na criação e edição
 
- - (Marcos): Validar a data de busca - pode usar uma lib externa (composer require laravellegends/pt-br-validator).
+2 - (Marisa): Validação do campo tipo - lista de opções permitidas
+
+3 - (Gabriel): Validar a data de busca - pode usar uma lib externa (composer require laravellegends/pt-br-validator).
 Por que não usamos formRequest aqui?
 
- - (Gabriel): Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
+4 - (Marcos) implementar busca por tipo de ocorrência
+
+# próximos encontros 
+
+ - Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
 
  - Cadastro (blade, rota, controller) de vigia
 
