@@ -57,6 +57,7 @@ Por que não usamos formRequest aqui?
 4 - (Marcos) implementar busca por tipo de ocorrência
 
 # 5. Encontro - 30/07/2020 - CRUD vigia
+https://youtu.be/V6nToL2efqc
 
 - CRUD para cadastro de vígia: código vigia e nome. Na index, busca pelo código do vigia. 
 
