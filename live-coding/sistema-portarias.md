@@ -44,6 +44,7 @@ https://youtu.be/FZF-AQISfGg
 3 - (Laura): Validação com FormRequest da ocorrência na criação e edição
 
 # 4. Encontro - 09/07/2020
+
 https://youtu.be/vgMkBewEG20
 
 1 - (Laura): Terminar validação com FormRequest da ocorrência na criação e edição
@@ -55,13 +56,13 @@ Por que não usamos formRequest aqui?
 
 4 - (Marcos) implementar busca por tipo de ocorrência
 
-# próximos encontros 
+# 5. Encontro - 30/07/2020 - CRUD vigia
+
+- CRUD para cadastro de vígia: código vigia e nome. Na index, busca pelo código do vigia. 
+
+# próximos encontros
 
  - Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
-
- - Cadastro (blade, rota, controller) de vigia
-
- - Editar vigia
 
  - Listar vigias com busca por código do vigia. Show vigia, mostrando as ocorrências que ele cadastrou
 
