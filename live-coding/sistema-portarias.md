@@ -61,6 +61,10 @@ https://youtu.be/V6nToL2efqc
 
 - CRUD para cadastro de vígia: código vigia e nome. Na index, busca pelo código do vigia. 
 
+# 5. Encontro - 06/08/2020 - autenticação
+
+ https://youtu.be/kChMy7ONqUk 
+
 # próximos encontros
 
  - Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
