@@ -64,16 +64,8 @@ https://youtu.be/V6nToL2efqc
 # 6. Encontro - 06/08/2020 - autenticação
 
  https://youtu.be/kChMy7ONqUk 
+ 
+# 7. Encontro - 13/08/2020 - Rules e Gate
 
-# próximos encontros
+https://youtu.be/9ID499Pv9Mw
 
- - Implementação de foreignKey para usuário no model de ocorrência - corrigir migration
-
- - Listar vigias com busca por código do vigia. Show vigia, mostrando as ocorrências que ele cadastrou
-
- - Criação do login do vigia (rota, form, controller)
-
- - Instalação do senha única e mapeamento com usuário do laravel. 
- - Definição de permissões usando ServiceProvider: admin e vigia
-
- -  Aplicar papéis nos controllers
