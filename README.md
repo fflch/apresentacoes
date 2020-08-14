@@ -10,3 +10,4 @@ Apresentações (sem slides):
 - Assinatura digital de documentos com Autentusp -  https://youtu.be/DGWD54mp1BY
 - Google Drive com Google File Stream - FFLCH USP -  https://youtu.be/5WFUAWcoCTI 
 - Concedendo acesso a conta institucionais USP -  https://youtu.be/2Ks1tYmGwC4 
+- Gerando certificados digitais para cursos, eventos - https://youtu.be/QvoqFAdsTBM 
