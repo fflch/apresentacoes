@@ -14,5 +14,6 @@ Apresentações (sem slides):
 - Instalação modem USP no debian 10 https://www.youtube.com/watch?v=zFg8Ww-AKCM&feature=youtu.be
 - Mudanças atualização moodle - blocos https://www.youtube.com/watch?v=VmM1KrMzIkU&feature=youtu.be
 - Provas online - webform invitation drupal - https://youtu.be/1ZZ0T2HDS2U
+- git sti-fflch - https://youtu.be/d7iwuh-J5ns
 
 
