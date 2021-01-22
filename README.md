@@ -15,5 +15,6 @@ Apresentações (sem slides):
 - Mudanças atualização moodle - blocos https://www.youtube.com/watch?v=VmM1KrMzIkU&feature=youtu.be
 - Provas online - webform invitation drupal - https://youtu.be/1ZZ0T2HDS2U
 - git sti-fflch - https://youtu.be/d7iwuh-J5ns
+- grid views Drupal - https://youtu.be/_kN9vtfpDeA 
 
 
